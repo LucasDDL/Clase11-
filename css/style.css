@@ -16,6 +16,28 @@ body{
 
 }
 
+.grid {  
+    display: grid;
+    grid-template-columns: 80% 1fr;
+    grid-template-rows: 112px 1fr 4em;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "encabezado encabezado"
+      "contenido aside"
+      "footer footer";
+  }
+  
+  .encabezado { grid-area: encabezado; }
+  
+  .footer { grid-area: footer; }
+  
+  .contenido { grid-area: contenido; }
+  
+  .aside { grid-area: aside; }
+  
+
 .encabezado{
     display: flex;
     background-color: #c7003a;
@@ -54,11 +76,7 @@ body{
 }
 
 
-main iframe {
-    height: 222px;
-    width: 300px;
-    margin-top: 10px;
-}
+
 
 .nh {
     margin-left: 20px;
@@ -85,6 +103,32 @@ main iframe {
 
 }
 
+.aside{
+    background-color: #662135;
+    padding: 10px;    
+}
+
+aside .formulario{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.aside label{
+    color: aliceblue;
+}
+
+.aside h1{
+    justify-content: center;
+    color: gold;
+    text-decoration: underline;
+}
+
+.aside .submit{
+    position: relative;
+    top: 20px;
+}
+
 
 
 .fb {
@@ -109,6 +153,7 @@ body {
 footer{
     background-color: rgba(100, 148, 237, 0.753);
 }
+
 
 
 
