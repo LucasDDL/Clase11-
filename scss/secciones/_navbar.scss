@@ -1,0 +1,36 @@
+.encabezado {
+    display: flex;
+    background-color: #c7003a;
+    padding: 12px 16px;
+    flex-wrap: wrap;
+
+    img {
+        height: 72px;
+        width: auto;
+    }
+
+    .nav {
+        flex: 1;
+
+        .menu {
+            display: flex;
+            list-style: none;
+            width: 100%;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+
+            li {
+                font-size: x-large;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+                a {
+                    color: aliceblue;
+                    line-height: 72px;
+                    display: inline-block;
+                    padding: 0 12px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
