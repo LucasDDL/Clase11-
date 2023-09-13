@@ -1,9 +1,4 @@
-
-@import "./secciones/reset";
-@import "./secciones/navbar";
-@import "./secciones/index";
-@import "./secciones/footer";
-@import "./secciones/cards";
+@import "./secciones/variables";
 @import "../node_modules/bootstrap/scss/bootstrap";
 // Requerido
 @import "../node_modules/bootstrap/scss/functions";
@@ -18,6 +13,11 @@
 @import "../node_modules/bootstrap/scss/reboot";
 @import "../node_modules/bootstrap/scss/type";
 // etc
+@import "./secciones/reset";
+@import "./secciones/navbar";
+@import "./secciones/index";
+@import "./secciones/footer";
+@import "./secciones/cards";
 
 
 
