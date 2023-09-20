@@ -9904,12 +9904,17 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: 80% 1fr;
-  grid-template-rows: 112px 1fr 4em;
-  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "encabezado encabezado" "contenido aside" "footer footer"; }
+  grid-template-areas: "encabezado" "contenido" "aside" "footer"; }
+
+@media (min-width: 600px) {
+  .grid {
+    grid-template-columns: 80% 1fr;
+    grid-template-rows: 112px 1fr 4em;
+    grid-template-areas: "encabezado encabezado" "contenido aside" "footer footer"; } }
 
 .encabezado {
   grid-area: encabezado; }
