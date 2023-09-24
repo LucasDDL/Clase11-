@@ -1,0 +1,23 @@
+.clearfix h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(214, 121, 0);
+    background-color: #2e1780;
+    
+}
+
+.clearfix  .float-md-start{
+    width: 13rem;
+    margin-right: 1rem;
+}
+
+.clearfix  .float-md-end{
+    width: 13rem;
+    margin-left: 1rem;
+}
+
+.clearfix p{
+    background-color: rgba(5, 5, 5, 0.63);
+    color: rgb(255, 255, 255);
+}
+

@@ -1,23 +1,15 @@
 @import "./secciones/variables";
 @import "../node_modules/bootstrap/scss/bootstrap";
-// Requerido
-@import "../node_modules/bootstrap/scss/functions";
-// Sobrescribir los valores por defecto de las variables
 
-// Requerido
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/maps";
-@import "../node_modules/bootstrap/scss/mixins";
-@import "../node_modules/bootstrap/scss/root";
-// Componentes opcionales de Bootstrap aquí
-@import "../node_modules/bootstrap/scss/reboot";
-@import "../node_modules/bootstrap/scss/type";
-// etc
 @import "./secciones/reset";
 @import "./secciones/navbar";
 @import "./secciones/index";
 @import "./secciones/footer";
 @import "./secciones/cards";
+@import "./secciones/tienda";
+@import "./secciones/servicios/carrousel";
+@import "./secciones/servicios/clearfix";
+@import "./secciones/contacto";
 
 
 

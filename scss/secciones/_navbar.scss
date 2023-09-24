@@ -3,6 +3,11 @@
     background-color: #c7003a;
     padding: 12px 16px;
     flex-wrap: wrap;
+    top: 0;
+    left: 0;
+    position: sticky;
+    z-index: 999;
+
 
     img {
         height: 72px;
@@ -11,13 +16,14 @@
 
     .nav {
         flex: 1;
-
+    
         .menu {
             display: flex;
             list-style: none;
             width: 100%;
             justify-content: space-evenly;
             flex-wrap: wrap;
+            
 
             li {
                 font-size: x-large;
@@ -25,6 +31,13 @@
 
                 a {
                     color: aliceblue;
+                    line-height: 72px;
+                    display: inline-block;
+                    padding: 0 12px;
+                    text-decoration: none;
+                }
+                ul li a{
+                    color: #2e1780;
                     line-height: 72px;
                     display: inline-block;
                     padding: 0 12px;
